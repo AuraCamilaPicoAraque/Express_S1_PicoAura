@@ -1,0 +1,117 @@
+{
+    "P1": [
+        {
+            "Jornada": 1,
+            "Miembro": [],
+            "Trainer": "Pedro",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ],
+    "P2": [
+        {
+            "Jornada": 2,
+            "Miembro": [],
+            "Trainer": "Pedro",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ],
+    "J1": [
+        {
+            "Jornada": 1,
+            "Miembro": [],
+            "Trainer": "Jolver",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ],
+    "J2": [
+        {
+            "Jornada": 2,
+            "Miembro": [],
+            "Trainer": "Jolver",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ],
+    "M1": [
+        {
+            "Jornada": 1,
+            "Miembro": [
+                "Juan Carlos Gomez Perez",
+                "Valentina Isabel Garcia Suarez"
+            ],
+            "Trainer": "Miguel",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ],
+    "M2": [
+        {
+            "Jornada": 2,
+            "Miembro": [
+                "Isabela Fernanda Castro Rodriguez"
+            ],
+            "Trainer": "Miguel",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ],
+    "A1": [
+        {
+            "Jornada": 0,
+            "Miembro": [
+                "CAMI PIQUITO"
+            ],
+            "Trainer": "Augusto",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ],
+    "A2": [
+        {
+            "Jornada": 0,
+            "Miembro": [
+                "Luis Fernando Ramirez Torres"
+            ],
+            "Trainer": "Augusto",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ],
+    "C1": [
+        {
+            "Jornada": 0,
+            "Miembro": [
+                "Juan Carlos Gomez Perez",
+                "pepito perez",
+                "juan umana"
+            ],
+            "Trainer": "Carlos Rueda",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ],
+    "C2": [
+        {
+            "Jornada": 0,
+            "Miembro": [
+                "sofia rodriguez"
+            ],
+            "Trainer": "Carlos Rueda",
+            "Ruta": {},
+            "Fecha Inicio": "12/2/2025",
+            "Fecha Finalizacion": "12/12/2025"
+        }
+    ]
+}

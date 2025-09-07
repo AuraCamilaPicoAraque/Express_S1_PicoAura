@@ -1,0 +1,390 @@
+{
+  "Jornadas": [
+    {
+      "Manana": "1",
+      "Tarde": "2",
+      "Jornada Completa": "3"
+    }
+  ],
+  "Horario": [
+    {
+      "Manana": "6:00 am  a 2:00 pm",
+      "Tarde": "2:00 pm a 10:00 pm ",
+      "Jornada Completa": "6:00 a 10:00"
+    }
+  ],
+  "trainers": [
+    {
+      "ID": 1,
+      "nombres": "Pedro",
+      "Ruta": "",
+      "Jornada del trainer": "3",
+      "AreaEntreno": "Apolo"
+    },
+    {
+      "ID": 2,
+      "nombres": "Jolver",
+      "Ruta": "",
+      "Jornada del trainer": "3",
+      "AreaEntreno": "Sputnik"
+    },
+    {
+      "ID": 3,
+      "nombres": "Miguel",
+      "Ruta": "",
+      "Jornada del trainer": "3",
+      "AreaEntreno": ""
+    },
+    {
+      "ID": 4,
+      "nombres": "Augusto",
+      "Ruta": "",
+      "Jornada del trainer": "1",
+      "AreaEntreno": ""
+    },
+    {
+      "ID": 5,
+      "nombres": "Carlos Rueda",
+      "Ruta": "",
+      "Jornada del trainer": "2",
+      "AreaEntreno": ""
+    },
+    {
+      "ID": 6,
+      "nombres": "oracio",
+      "Ruta": "",
+      "Jornada del trainer": "3"
+    }
+  ],
+  "Rutas": {
+    "Java": [
+      "-Intro",
+      "Python",
+      "HTML/CSS",
+      "Scrum",
+      "Git",
+      "JavaScript",
+      "Intro Back",
+      "Intro BBDD",
+      "MySQL",
+      "Java",
+      "PostgreSQL",
+      "SpringBoot"
+    ],
+    "NodeJS": [
+      "-Intro",
+      " Python",
+      " HTML/CSS",
+      " Scrum",
+      " Git",
+      " JavaScript",
+      " Intro Back",
+      " Intro BBDD",
+      " MongoDB",
+      " JavaScript",
+      " MySQL",
+      " Express"
+    ],
+    ".NET": [
+      "-Intro",
+      " Python",
+      " HTML/CSS",
+      " Scrum",
+      " Git",
+      " JavaScript",
+      " Intro Back",
+      " Intro BBDD",
+      " MySQL",
+      " C#",
+      " PostgreSQL",
+      " .Net Core"
+    ],
+    "Python": [
+      "-Intro",
+      "Python",
+      "HTML/CSS",
+      "Scrum",
+      "Git",
+      "JavaScript",
+      "Intro Back",
+      "Intro BBDD",
+      "MySQL",
+      "Django",
+      "Flask",
+      "FastAPI"
+    ],
+    "C++": [
+      "-Intro",
+      "Python",
+      "HTML/CSS",
+      "Scrum",
+      "Git",
+      "C++",
+      "Estructuras de Datos",
+      "Algoritmos",
+      "Patrones de Diseno",
+      "Bases de Datos",
+      "QT Framework"
+    ],
+    " DevOps": [
+      "-Intro",
+      "Python",
+      "Git",
+      "Scrum",
+      "Docker",
+      "Kubernetes",
+      "Linux",
+      "AWS",
+      "Terraform",
+      "CI/CD",
+      "Networking",
+      "Monitorizacion"
+    ],
+    "Ruta CSS": [
+      "introduccion",
+      "modulo",
+      "git",
+      "css avazando",
+      "java scrpt",
+      "docker",
+      "scrum",
+      "java",
+      "python",
+      "jask",
+      "asdas",
+      "asda"
+    ]
+  },
+  "coordinadora": {
+    "nombre": "Karen",
+    "usuario": "karencitatodapoderosa",
+    "contrasena": "contrasena"
+  },
+  "campers": [
+    {
+      "identificacion": "1",
+      "nombres": "Juan Carlos",
+      "apellidos": "Gomez Perez",
+      "direccion": "Calle 45 #23-10, Bogota",
+      "telefonos": "3001234567",
+      "acudiente": "Maria Perez",
+      "estado del estudiante": {
+        "estado": "Aprobado",
+        "riesgo": "Bajo"
+      },
+      "jornada": 1,
+      "Ruta": "Java"
+    },
+    {
+      "identificacion": "2",
+      "nombres": "Ana Sofia",
+      "apellidos": "Martinez Lopez",
+      "direccion": "Carrera 12 #45-32, Medellin",
+      "telefonos": "3107654321",
+      "acudiente": "Carlos Martinez",
+      "estado del estudiante": {
+        "estado": "Reprobado",
+        "riesgo": "Medio"
+      },
+      "jornada": 2,
+      "Ruta": "Java"
+    },
+    {
+      "identificacion": "3",
+      "nombres": "Luis Fernando",
+      "apellidos": "Ramirez Torres",
+      "direccion": "Av. 68 #50-20, Cali",
+      "telefonos": "3209987654",
+      "acudiente": "Andrea Torres",
+      "estado del estudiante": {
+        "estado": "Aprobado",
+        "riesgo": "Bajo"
+      },
+      "jornada": 2,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "4",
+      "nombres": "Gabriela Estefania",
+      "apellidos": "Rodriguez Vargas",
+      "direccion": "Calle 12 #33-45, Barranquilla",
+      "telefonos": "3157890123",
+      "acudiente": "Miguel Rodriguez",
+      "estado del estudiante": {
+        "estado": "En proceso de ingreso",
+        "riesgo": "Alto"
+      },
+      "jornada": 2,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "5",
+      "nombres": "Daniel Andres",
+      "apellidos": "Fernandez Castro",
+      "direccion": "Carrera 8 #90-10, Cartagena",
+      "telefonos": "3184567890",
+      "acudiente": "dante",
+      "estado del estudiante": {
+        "estado": "Graduado",
+        "riesgo": "Bajo"
+      },
+      "jornada": 1,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "6",
+      "nombres": "Mariana Alejandra",
+      "apellidos": "Lopez Garcia",
+      "direccion": "Av. Libertador #14-56, Santa Marta",
+      "telefonos": "3216549870",
+      "acudiente": "Ricardo Lopez",
+      "estado del estudiante": {
+        "estado": "Cursando",
+        "riesgo": "Medio"
+      },
+      "jornada": 2,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "7",
+      "nombres": "Santiago Javier",
+      "apellidos": "Perez Molina",
+      "direccion": "Calle 7 #78-90, Bucaramanga",
+      "telefonos": "3223456789",
+      "acudiente": "Rosa Molina",
+      "estado del estudiante": {
+        "estado": "Retirado",
+        "riesgo": "Alto"
+      },
+      "jornada": 1,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "8",
+      "nombres": "Valentina Isabel",
+      "apellidos": "Garcia Suarez",
+      "direccion": "Carrera 5 #22-34, Manizales",
+      "telefonos": "3167891234",
+      "acudiente": "Jose Garcia",
+      "estado del estudiante": {
+        "estado": "Aprobado",
+        "riesgo": "Bajo"
+      },
+      "jornada": 1,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "9",
+      "nombres": "Mateo Andres",
+      "apellidos": "Munoz Ramirez",
+      "numero": "3183792380",
+      "direccion": "Calle 15 #10-22, Pereira",
+      "telefonos": "3174561230",
+      "acudiente": "Claudia Ramirez",
+      "estado del estudiante": {
+        "estado": "Expulsado",
+        "riesgo": "Alto"
+      },
+      "jornada": 1,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "10",
+      "nombres": "Isabela Fernanda",
+      "apellidos": "Castro Rodriguez",
+      "direccion": "Avenida Norte #45-12, Cucuta",
+      "telefonos": "3196543210",
+      "acudiente": "Fernando Castro",
+      "estado del estudiante": {
+        "estado": "Aprobado",
+        "riesgo": "Bajo"
+      },
+      "jornada": 2,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "11",
+      "nombres": "CAMI",
+      "apellidos": "PIQUITO",
+      "direccion": "CALLE 11B 1B - 20 TORRES DE ZAFIRO ",
+      "telefonos": 3227770682,
+      "acudiente": "CARLOS",
+      "estado del estudiante": {
+        "estado": "Aprobado",
+        "riesgo": "Bajo"
+      },
+      "jornada": 1,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "12",
+      "nombres": "pepito",
+      "apellidos": "perez",
+      "direccion": "cr 13 # 60 -17",
+      "telefonos": 3178499887,
+      "acudiente": "nidya",
+      "estado del estudiante": {
+        "estado": "Aprobado",
+        "riesgo": "Bajo"
+      },
+      "jornada": 1,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "13",
+      "nombres": "sofia",
+      "apellidos": "rodriguez",
+      "direccion": "cra 60 13 la trrinidad",
+      "telefonos": 3178499887,
+      "acudiente": "adriana",
+      "estado del estudiante": {
+        "estado": "Aprobado",
+        "riesgo": "Bajo"
+      },
+      "jornada": 2,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "14",
+      "nombres": "juan",
+      "apellidos": "umana",
+      "direccion": "calle 11b 1b - 20 ",
+      "telefonos": 3053339629,
+      "acudiente": "fernanda",
+      "estado del estudiante": {
+        "estado": "Aprobado",
+        "riesgo": "Bajo"
+      },
+      "jornada": 1,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "15",
+      "nombres": "camilo",
+      "apellidos": "salamanca",
+      "direccion": "calle 11b 1b - 20",
+      "telefonos": 3178499887,
+      "acudiente": "carlos",
+      "estado del estudiante": {
+        "estado": "Inscrito",
+        "riesgo": "Bajo"
+      },
+      "jornada": 2,
+      "Ruta": ""
+    },
+    {
+      "identificacion": "151",
+      "nombres": "Juan",
+      "apellidos": "Pérez",
+      "direccion": "Calle 123",
+      "telefonos": 3123456789,
+      "acudiente": "Maria Pérez",
+      "estado del estudiante": {
+        "estado": "en proceso de inscripción",
+        "riesgo": "Bajo"
+      },
+      "jornada": 1,
+      "Ruta": ""
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+    "NotasCamper": [
+        {
+            "Nombre": "Juan Carlos",
+            "Notas": {
+                "proyecto": 70,
+                "filtro": 70,
+                "otros": 70
+            }
+        },
+        {
+            "Nombre": "Ana Sofia",
+            "Notas": {
+                "proyecto": "",
+                "filtro": "",
+                "otros": ""
+            }
+        },
+        {
+            "Nombre": "Luis Fernando",
+            "Notas": {
+                "proyecto": "",
+                "filtro": "",
+                "otros": ""
+            }
+        },
+        {
+            "Nombre": "Gabriela Estefania",
+            "Notas": {
+                "proyecto": "",
+                "filtro": "",
+                "otros": ""
+            }
+        },
+        {
+            "Nombre": "Daniel Andres",
+            "Notas": {
+                "proyecto": "",
+                "filtro": "",
+                "otros": ""
+            }
+        },
+        {
+            "Nombre": "Mariana Alejandra",
+            "Notas": {
+                "proyecto": "",
+                "filtro": "",
+                "otros": ""
+            }
+        },
+        {
+            "Nombre": "Santiago Javier",
+            "Notas": {
+                "proyecto": "",
+                "filtro": "",
+                "otros": ""
+            }
+        },
+        {
+            "Nombre": "Valentina Isabel",
+            "Notas": {
+                "proyecto": "",
+                "filtro": "",
+                "otros": ""
+            }
+        },
+        {
+            "Nombre": "Mateo Andres",
+            "Notas": {
+                "proyecto": "",
+                "filtro": "",
+                "otros": ""
+            }
+        },
+        {
+            "Nombre": "Isabela Fernanda",
+            "Notas": {
+                "proyecto": "",
+                "filtro": "",
+                "otros": ""
+            }
+        }
+    ]
+}
