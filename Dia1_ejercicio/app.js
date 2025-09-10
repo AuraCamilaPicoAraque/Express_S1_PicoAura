@@ -8,14 +8,18 @@
 const express = require("express"); // Importa el framework Express
 const fs = require("fs"); // Importa el módulo de sistema de archivos
 const app = express();
+require('dotenv').config();
 
 app.use(express.json());
 
 // Configura la respuesta JSON para que sea más legible
 app.set("json spaces", 2);
 
+
+// conexion a la base de datos mongo
+const { connectDB, getDB, disconnectDB } = require('./config/db');
 // Definimos el puerto
-const PORT = 3000;
+ const PORT = process.env.PORT
 
 
 
@@ -36,7 +40,7 @@ app.use('/coordinador', coordinadorApartados);
 // Funciones auxiliares para manejar JSON
 
 function readBD() {
-    return JSON.parse(fs.readFileSync("./data_json/BasedDatosCampus.json", "utf-8")); // Lee el archivo JSON y lo convierte en un objeto
+    return JSON.parse(fs.readFileSync("./data_json/BaseDatosCampus.json", "utf-8")); // Lee el archivo JSON y lo convierte en un objeto
 }
 
 // Necesitamos el modulo fs para manejar archivos

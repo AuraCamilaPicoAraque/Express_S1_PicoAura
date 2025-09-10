@@ -43,7 +43,7 @@ http://localhost:3000
 Este endpoint permite consultar la base de datos actual de campers.
 
 ```
-curl http://localhost:3000/campers
+curl -X GET http://localhost:3000/campers
 ``` 
 
 ----------
@@ -147,7 +147,7 @@ curl -X DELETE http://localhost:3000/campers/1
 Este endpoint permite visualizar los trainers de manera similar a como lo hacía el coordinador en el menú.
 
 ```
-curl http://localhost:3000/trainers
+curl -X GET http://localhost:3000/trainers
 ```
 
 ----------
@@ -251,7 +251,7 @@ curl -X DELETE http://localhost:3000/trainers/1
 Reproduce la opción del coordinador de visualizar la base de datos de estudiantes y trainers.
 
 ```
-curl http://localhost:3000/coordinador
+curl -X GET http://localhost:3000/coordinador
 ```
 
 ----------
