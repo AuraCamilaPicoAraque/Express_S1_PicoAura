@@ -1,43 +1,13 @@
-/*
--- DIA 1 - EJERCICIO CON BBDD CAMPUSLAND
-*/
-
-
-// Importacion de express en variable app
+const express = require("express");
 const jwt = require("jsonwebtoken");
-const secretKey = "secret";
-const express = require("express"); // Importa el framework Express
-const fs = require("fs"); // Importa el módulo de sistema de archivos
 const app = express();
-require('dotenv').config();
+const port = 3000;
+const secretKey = "secret";
 
 app.use(express.json());
 
 // Configura la respuesta JSON para que sea más legible
 app.set("json spaces", 2);
-
-
-// conexion a la base de datos mongo
-const { connectDB, getDB, disconnectDB } = require('./config/db'); // Importa las funciones de conexión a la base de datos
-// Definimos el puerto
-const PORT = process.env.PORT
-
-
-
-// Importacion de rutas
-const campersApartados = require('./apartados/campers');
-const trainersApartados = require('./apartados/trainer');
-const coordinadorApartados = require('./apartados/coordinador');
-
-// Importacion de express en variable app
-
-app.use('/campers', campersApartados);
-app.use('/trainer', trainersApartados);
-app.use('/coordinador', coordinadorApartados);
-
- 
-
-// ==== LOGIN ====
 
 app.post("/login", (req, res) => {
   try {
@@ -76,11 +46,6 @@ app.get("/protected", verifyToken, (req, res) => {
   return res.status(200).json({ message: "You have access" });
 });
 
-
-
-
-// ====== SERVIDOR ======
-
-app.listen(PORT, () => {
-    console.log(`EL servidor esta inicilizando`);
+app.listen(port, () => {
+  console.log(`Server listen on http://localhost:${port}`);
 });

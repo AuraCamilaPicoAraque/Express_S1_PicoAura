@@ -1,24 +1,42 @@
-//Conexíon hacia la BBDD
-require('dotenv').config();
+import { MongoClient, ObjectId } from "mongodb";
+import dotenv from "dotenv";
+dotenv.config();
 
-const {MongoClient} = require('mongodb');
+const MONGO_URI = process.env.MONGO_URI;
+const DB_NAME = process.env.DB_NAME;
 
-const uri = process.env.URI;
-const dbName = process.env.DB_NAME;
+let db = null;
+let client = null;
 
-let client;
-let db;
-
-async function connect(){
-    if(db) return db; //Retorna la variable si tiene alguna conexión
-    client = new MongoClient(uri);//Importa MongoClient a client
-    await client.connect(); //Abre la conexión
-    db = client.db(dbName);//Selecciona y anida la BBDD
-    return db; // Retorna la conexión anidada a la BBDD
+async function connectDB() {
+    if (db) return db; // Si ya hay una conexión, la reutiliza
+    
+    try {
+        client = new MongoClient(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+        await client.connect();
+        db = client.db(DB_NAME);
+        console.log("Connected to MongoDB");
+        return db;
+    } catch (error) {
+        console.error("Error connecting to MongoDB:", error);
+        throw error;
+    }
 }
 
-async function disconnect(){
-    if(client) await client.close();
+function getDB() {
+    if (!db) {
+        throw new Error("Database not connected. Call connectDB first.");
+    }
+    return db;
 }
 
-module.exports={connect, disconnect};
+async function disconnectDB() {
+    if (client) {
+        await client.close();
+        db = null;
+        client = null;
+        console.log("Disconnected from MongoDB");
+    }
+}
+
+export { connectDB, getDB, disconnectDB, ObjectId };
