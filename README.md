@@ -17,10 +17,11 @@ La organización se encuentra dividida por días de trabajo, cada uno con su pro
 ## Estructura del proyecto
 
 | Día  | Carpeta / Archivo   | Descripción                                                                 |
-|------|----------------------|-----------------------------------------------------------------------------|
+|------|---------------------|-----------------------------------------------------------------------------|
 | 1    | `Dia1/`             | Contiene los primeros archivos y ejemplos de introducción a Express.        |
 | 1    | `Dia1_ejercicio/`   | Ejercicios prácticos aplicando MVC y conexión a MongoDB.                    |
-| -    | `.gitignore`        | Archivo para excluir dependencias y archivos innecesarios del repositorio. |
+| 5    | `Dia5/`             | Ejercicios prácticos aplicando MVC,conexión a MongoDB con login.            |
+| -    | `.gitignore`        | Archivo para excluir dependencias y archivos innecesarios del repositorio.  |
 | -    | `README.md`         | Documentación principal del proyecto.                                       |
 
 ---
